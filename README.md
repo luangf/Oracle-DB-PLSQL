@@ -67,4 +67,5 @@ BEGIN
     SP_CONFERE_NM_CLIENTE(P_ID_CLIENTE => 1, P_NM_CLIENTE => 'Luisa');
 END;
 ```
+* É possível visualizar que a DBMS_OUTPUT.PUT_LINE printou João porque o id e o nome que vieram na procedures correspondiam ao registro no DB corretamente, já na segunda DBMS_OUTPUT.PUT_LINE veio 'Other name', pois no DB o nome do registro de id 1 é 'João' e não 'Luisa'
 <img src="https://github.com/user-attachments/assets/da60e021-15f5-4673-a0d1-eb1324503868" width="400"/>
