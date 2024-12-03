@@ -33,6 +33,7 @@ INSERT INTO clientes(id_cliente, nome_cliente, sexo, email, data_nascimento)
 
 SELECT * FROM clientes;
 ```
+<img src="https://github.com/user-attachments/assets/9265414b-3aab-4469-98e5-d99b004a7c6e" width="400"/>
 
 3. Criação da PROCEDURE (..executar a instrução de criação dela, antes de chama-la no passo 4):
 ```
@@ -66,3 +67,4 @@ BEGIN
     SP_CONFERE_NM_CLIENTE(P_ID_CLIENTE => 1, P_NM_CLIENTE => 'Luisa');
 END;
 ```
+<img src="https://github.com/user-attachments/assets/da60e021-15f5-4673-a0d1-eb1324503868" width="400"/>
